@@ -12,7 +12,7 @@ int main(int argc, char* argv[]) {
     char* parameter = argv[1];
     char* filename = argv[2];
 
-    FILE* file = fopen(filename, "r");
+    FILE *file = fopen(filename, "r");
     if (file == NULL) {
         printf("无法找到此文件 %s\n", filename);
         return 1;
@@ -40,7 +40,7 @@ int main(int argc, char* argv[]) {
 int countCharacters(FILE *file) {
     int count = 0;
     int fileeachChar;
-    while ((fileeachChar = fgetc(file)) != EOF) {
+    while ((fileeachChar = fgetc(file)) != EOF) {   //将.txt中的一一取出，直到末尾
         count++;
     }
     return count;
@@ -55,7 +55,7 @@ int countWords(FILE *file) {
         if ((fileeachChar > 'a' && fileeachChar < 'z') || fileeachChar > 'A' && fileeachChar < 'Z') {
             inWord = true;
         }
-        else if(fileeachChar = ',') {                     //当出现“，”或空格时，分割为单词
+        else if(fileeachChar == ',') {                     //当出现“，”或空格时，分割为单词
             if (inWord) {
                 count++;
                 inWord = false;

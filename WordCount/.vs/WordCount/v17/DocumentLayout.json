@@ -17,11 +17,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -31,7 +35,7 @@
               "RelativeDocumentMoniker": "WordCount\\test.c",
               "ToolTip": "D:\\SWPUhanpeng\\WordCount\\WordCount\\test.c",
               "RelativeToolTip": "WordCount\\test.c",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAEoAAAAQAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-05-18T11:06:46.802Z",
               "EditorCaption": ""
@@ -44,8 +48,7 @@
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCProjectItems\\newc\u002B\u002Bfile.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-18T11:04:23.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T11:04:23.061Z"
             }
           ]
         }
